@@ -4,6 +4,8 @@ import json
 class JsonWriter:
     '''Class responsible for creating json files'''
 
+#todo outName validation
+#class refactor, multiple types of outfile
     def __init__(self, outName):
         self.outputFile = outName
         f = open(self.outputFile, 'w+')
